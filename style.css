@@ -1,0 +1,124 @@
+:root {
+    --tileSize: 100px;
+    
+}
+
+.title {
+    
+    height: 10vh;
+    position: absolute;
+    top: 10px;
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    
+    
+    border:4px solid  aquamarine;
+    border-radius: 16px;
+    
+    height: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    width: 80%;   
+    
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, var(--tileSize));
+    grid-template-rows: repeat(4, var(--tileSize));
+    grid-gap: 4px;
+}
+
+
+.game-tiles-1 {
+    display: grid;
+    grid-template-columns: repeat(4, var(--tileSize));
+    grid-template-rows: repeat(2, var(--tileSize));
+    margin-bottom: 10px;
+    gap: 4px;
+}
+
+.game-tiles-2 {
+    display: grid;
+    grid-template-columns: repeat(4, var(--tileSize));
+    grid-template-rows: repeat(2, var(--tileSize));
+    margin-top: 10px;
+    gap: 4px;
+}
+
+.mid-section{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    color: blue;
+    
+}
+
+.game-tileSelected {
+    border: 1px solid blue;
+    margin-bottom: 10px;
+}
+
+.game-tile{
+    border: 1px solid green;
+}    
+
+.game-tile , .game-tileSelected {
+    width: var(--tileSize);
+    height: var(--tileSize);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    
+    border-radius: 20%;
+    cursor: pointer;
+    /* background-image: url("src/img\ -\ copia\ \(10\).png"); */
+    background-size: cover;  /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+}
+
+.game-board div {
+    background-color:none ;
+
+}
+
+@media screen and (max-width:1230px) {
+    
+
+    :root {
+        --tileSize: 75px;
+        
+    }
+}
+
+@media screen and (max-width:980px) {
+    .game-container {
+        background-color: white;
+        
+        flex-direction: column;
+    }
+
+    .mid-section{
+        margin: 14px 0px
+    }
+
+    :root {
+        --tileSize: 50px;
+        
+    }
+}
+
