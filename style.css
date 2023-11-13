@@ -1,3 +1,9 @@
+.game-tiles-1:nth-child(1) {
+    background-image: url(/src/img1.png);
+}
+
+
+
 :root {
     --tileSize: 100px;
     
@@ -86,7 +92,7 @@
     
     border-radius: 20%;
     cursor: pointer;
-    
+    /* background-image: url("src/img\ -\ copia\ \(10\).png"); */
     background-size: cover;  /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen en el contenedor */
 }
