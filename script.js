@@ -46,22 +46,22 @@ function putColor(object) {
 
 var pincelCargado = false
 const urls = [
-    "src/img1.png",
-    "src/img2.png",
-    "src/img3.png",
-    "src/img4.png",
-    "src/img5.png",
-    "src/img6.png",
-    "src/img7.png",
-    "src/img8.png",
-    "src/img9.png",
-    "src/img10.png",
-    "src/img11.png",
-    "src/img12.png",
-    "src/img13.png",
-    "src/img14.png",
-    "src/img15.png",
-    "src/img16.png",
+    "img1.png",
+    "img2.png",
+    "img3.png",
+    "img4.png",
+    "img5.png",
+    "img6.png",
+    "img7.png",
+    "img8.png",
+    "img9.png",
+    "img10.png",
+    "img11.png",
+    "img12.png",
+    "img13.png",
+    "img14.png",
+    "img15.png",
+    "img16.png",
 
 ];
 
