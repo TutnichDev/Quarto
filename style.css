@@ -1,3 +1,9 @@
+.game-tiles-1:nth-child(1) {
+    background-image: url(/src/img1.png);
+}
+
+
+
 :root {
     --tileSize: 100px;
     
